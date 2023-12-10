@@ -250,6 +250,7 @@ li {
 label {
     width: 150px;
     text-align: right;
+    margin-left: auto;
 }
 
 input {
@@ -257,7 +258,9 @@ input {
     margin-left: 24px;
     line-height: 24px;
     font-size: 16px;
+    border: solid black 1px;
     margin-bottom: 24px;
+    margin-right: auto;
 }
 
 textarea {
@@ -266,9 +269,14 @@ textarea {
     margin-left: 24px;
     line-height: 24px;
     font-size: 16px;
+    border: solid black 1px;
     margin-bottom: 24px;
+    margin-right: auto;
 }
 
-button {
-    margin-bottom: 24px;
+#submit-button {
+    width: 306px;
+    border: solid black 1px;
+    margin-bottom: 24px;   
+    margin-left: 174px;
 }
