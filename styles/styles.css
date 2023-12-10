@@ -112,7 +112,7 @@ footer a:hover {
     - the header is 150px tall.
     - the header image is 100px wide and tall with 25px of space above, below, and on its left, and the top-level heading is centered in the remaining width.
     - there will be 25px of space between the header and main, and 50px of space between main and footer.
-    - the footer will be 60px tall, have a font-weight of 200, and the text within will be centered vertically and horizontally. << ARDAX TODO - centering
+    - the footer will be 60px tall, have a font-weight of 200, and the text within will be centered vertically and horizontally.
 */
 header {
     background-color: #E5AF42;
@@ -125,7 +125,10 @@ footer {
     margin-top: 50px;
     height: 60px;
     font-weight: 200px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     /* padding: 10px; */
 }
 
@@ -135,10 +138,6 @@ header img{
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 25px;
-}
-
-.about-us {
-    /* align-items: flex-start; */
 }
 
 
