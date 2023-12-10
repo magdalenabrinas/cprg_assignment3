@@ -166,7 +166,7 @@ header img{
     margin-bottom: 12px;
 }
 
-.index .fake-button {
+.fake-button {
     width: 250px;
     /* margin-right: 150px;
     margin-left: 150px; */
@@ -179,14 +179,14 @@ header img{
 /************* bookings page *************/
 
 /* TO-DO:
-    - the contents of the booking-page will be 600px wide, and all content centered within the available space.  << ARDAX TODO - centering
+    - the contents of the booking-page will be 600px wide, and all content centered within the available space.
     - text will have a size of 18px.
     - there will be 12px of space below the day-selectors, and 20px of space between each list item. List items are 60px wide.
     - List items & the small-button elements will have a solid black border that is 1px wide. Small-buttons will also have 5px of space between the border and the content.
     - items tagged with .top-margin will have 24 px of space above, and 12px of space below.
     - the "clear days" button will be 200px wide.
     - any element tagged with the .clicked class will turn mustard yellow. **This will be very important for your JavaScript.**
-    - all items within the page will be centered within their available space. << ARDAX TODO - centering
+    - all items within the page will be centered within their available space.
 
 */
 
@@ -202,9 +202,9 @@ header img{
 li {
     margin-bottom: 12px;
     margin-left: 20px;
-    margin-right: 20px;
     width: 60px;
     border: solid black 1px;
+    text-align: center;
 }
 
 .small-button {
@@ -224,7 +224,6 @@ li {
 .clicked {
     background-color: #E5AF42;
 }
-
 
 
 
