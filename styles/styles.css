@@ -148,25 +148,25 @@ header img{
     - this is a 2-column layout: text on the left, and an image on the right. The image will be 300px wide, with 25px between it and the text column, which takes up the remaining space. The image will also have 50px of space below.
     - the h2 on this page will have a line-height equal to the font size.
     - each paragraph on this page will have 12px of space beneath it.
-    - each fake-button on this page will be 250px wide with 150px of space between them. << ARDAX TODO - 150px space
-    - the pair of fake-buttons will be centered on the page. HINT: can calculate the required margin to make them appear to be centered. << ARDAX TODO - centering
+    - each fake-button on this page will be 250px wide with 150px of space between them.
+    - the pair of fake-buttons will be centered on the page. HINT: can calculate the required margin to make them appear to be centered.
 */
-main img {
+.index img {
     width: 300px;
     margin-left: 25px;
     margin-bottom: 50px;
     /* margin-right: 0; */
 }
 
-main h2 {
+.index h2 {
     line-height: 36px;
 }
 
-main p {
+.index p {
     margin-bottom: 12px;
 }
 
-main .fake-button {
+.index .fake-button {
     width: 250px;
     /* margin-right: 150px;
     margin-left: 150px; */
@@ -193,6 +193,10 @@ main .fake-button {
 .booking-page {
     width: 600px;
     font-weight: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
 }
 
 li {
