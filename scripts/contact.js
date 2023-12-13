@@ -6,7 +6,7 @@ function buttonClick(event) {
   event.preventDefault();
 
   let contactPage = document.getElementById("contact-page");
-  contactPage.innerHTML = "<p style='font-size: 24px;'>Thank you for your message!</p>"
+  contactPage.innerHTML = "<p style='font-size: 24px;'>Thank you for your message!</p>";
 }
 
 let submitButton = document.getElementById("submit-button");

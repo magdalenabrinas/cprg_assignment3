@@ -28,11 +28,11 @@ daysOfTheWeek.forEach(function(item) {
   item.addEventListener("click", function () {
       clickDays(item);
   });
-})
+});
 
 /********* clear days *********/
 // when the clear-button is clicked, the "clicked" class is removed from all days, any other relevant variables are reset, and the calculated cost is set to 0.
-var clearTheDaysButton = document.getElementById("clear-button")
+var clearTheDaysButton = document.getElementById("clear-button");
 
 function clearDays() {
   daysOfTheWeek.forEach(function(item) {
